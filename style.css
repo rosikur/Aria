@@ -1,6 +1,7 @@
 body {
   background-color: #2d2d2d;
   color: white;
+  margin: 0;
 }
 header {
   display: grid;
@@ -139,13 +140,13 @@ h3 {
   margin: 0px 50px;
   /* margin-top: 50px; */
 }
-.Fan{
+.Fan {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 30px;
   width: 100%;
 }
-.Fan p{
+.Fan p {
   font-family:
     Shantell Sans,
     sans-serif;
@@ -167,14 +168,14 @@ h3 {
   margin-left: auto;
   order: 2;
 }
-.Pomo{
+.Pomo {
   display: flex;
-  align-items:center;
+  align-items: center;
   gap: 30px;
   width: 100%;
 }
-.Pomo p{
- font-family:
+.Pomo p {
+  font-family:
     Shantell Sans,
     sans-serif;
   text-align: left;
@@ -182,15 +183,41 @@ h3 {
   min-width: 0;
   margin: 0;
   overflow-wrap: break-word;
-  font-size: larger;
+  font-size: medium;
   margin: 0px 50px;
 }
-.Pomo img{
+.Pomo img {
   flex: 0 0 540px;
   width: 540px;
   height: 600px;
   border: none;
   border-radius: 15px;
   margin-right: auto;
-  order: 1;
+  order: 0;
+}
+footer {
+  background-color: gray;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-radius: 15px;
+}
+footer h4 {
+  margin: 0;
+  padding: 15px;
+  font-family:
+    Shantell Sans,
+    sans-serif;
+  text-align: left;
+  flex: 2;
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: break-word;
+  font-size: medium;
+  margin: 0px 50px;
+}
+footer a {
+  color: #efee9d;
+  text-decoration: none;
+  
 }
